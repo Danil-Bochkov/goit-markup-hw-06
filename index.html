@@ -385,13 +385,20 @@
                         placeholder="Введите текст"></textarea>
                 </div>
                 <div class="modal-checkbox-field">
-                    <label class="modal-checkbox-title">
-                        <input class="modal-checkbox" type="checkbox" name="agree-rules">
-                        <span class="modal-checkbox-icon"></span>
-                        <span class="modal-checbox-text">Соглашаюсь с рассылкой и принимаю
-                        <a class="checkbox-rules link" href="/">Условия договора</a></span>
-                        
-                    </label>
+                    <input name="privacy" id="privacy" type="checkbox" class="modal-checkbox is-hidden">
+                    <div class="checkbox-block">
+                        <label for="privacy" class="modal-checkbox-label" name="modal-checkbox-label">
+                            <svg class="check-box" width="16" height="15">
+                                <use href="./images/sprite.svg#icon-checkbox"></use>
+                            </svg>
+                            <svg class="check-icon" width="12" height="11">
+                                <use href="./images/sprite.svg#icon-checkbox-1"></use>
+                            </svg>
+                            <p class="privacy-text">Соглашаюсь с рассылкой и принимаю
+                                <a class="privacy-link link" href="/">Условия договора</a>
+                            </p>
+                        </label>
+                    </div>
                 </div>
                 <div class="modal-button-field">
                     <button class="modal-button" type="submit">Отправить</button>
