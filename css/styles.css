@@ -803,6 +803,8 @@ address {
     cursor: pointer;
 
     background-color: var(--color-white);
+
+    transition: fill 250ms var(--timing-function);
 }
 
 .modal-button-close:hover {
