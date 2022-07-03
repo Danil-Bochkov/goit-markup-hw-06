@@ -800,10 +800,10 @@ address {
 
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    
     cursor: pointer;
-
+    
     background-color: var(--color-white);
-
     transition: fill 250ms var(--timing-function);
 }
 
