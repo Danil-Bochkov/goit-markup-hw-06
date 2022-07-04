@@ -372,20 +372,21 @@ address {
     margin-right: 30px;
 }
 
-.team-name {
-    margin-top: 30px;
-    margin-bottom: 10px;
-    
+.team-item-block {
+    padding-top: 30px;
+    padding-bottom: 16px;
     text-align: center;
+}
+
+.team-name {
+    padding-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
 
 .team-position {
-    margin-bottom: 16px;
-
-    text-align: center;
     line-height: 1.18;
     color: var(--muted-text-color);
 }
@@ -460,11 +461,12 @@ address {
     margin-bottom: 50px;
 }
 
+.filter-item:not(:last-child) {
+    margin-right: 8px;
+}
+
 .filter {    
     display: flex;
-    margin-left: 4px;
-    margin-right: 4px;
-
     padding: 6px 22px;
 
     border: none;
@@ -575,7 +577,6 @@ address {
 /* Footer */
 
 .footer-page {
-    display: block;
     background-color: var(--accent-background-color);
     color: var(--color-white);
 }
@@ -611,6 +612,10 @@ address {
 
 .footer-item {
     font-style: normal;
+}
+
+.footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer-contact-link {
