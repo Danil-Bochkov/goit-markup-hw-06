@@ -826,16 +826,11 @@ textarea {
     line-height: 1.15;
     text-align: center;
 
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 
 .modal-form {
     width: 448px;
-}
-
-.modal-form-field {
-    position: relative;
-    margin-bottom: 10px;
 }
 
 .modal-textarea.modal-input-field {
@@ -854,6 +849,10 @@ textarea {
     color: rgba(117, 117, 117, 0.5);
 }
 
+.modal-form-field {
+    position: relative;
+    margin-bottom: 10px;
+}
 
 .modal-label {
     display: inline-block;
